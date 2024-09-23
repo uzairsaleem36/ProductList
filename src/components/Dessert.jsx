@@ -61,7 +61,7 @@ export default function Dessert() {
   };
 
   return (
-    <Box minH="100vh" bg="gray.50" p={{ base: 4, md: 8 }} display="flex" flexDirection="column">
+    <Box minH="100vh" bg="#fcf8f5" p={{ base: 4, md: 8 }} display="flex" flexDirection="column">
       <Box display="flex" flexDirection={{ base: 'column', lg: 'row' }} justifyContent="space-between" alignItems="start">
         {/* Dessert Section */}
         <Box w={{ base: 'full', lg: '70%' }} pr={{ base: 0, lg: 10 }}>
